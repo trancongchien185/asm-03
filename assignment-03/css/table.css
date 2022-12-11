@@ -1,0 +1,7 @@
+/* tablet divice */
+@media (min-width: 769px) and (max-width: 992px) {
+  .my-grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+  }
+}

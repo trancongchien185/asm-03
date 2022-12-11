@@ -1,0 +1,6 @@
+/* mobile divice */
+@media (max-width: 768px) {
+  .my-grid {
+    grid-template-columns: 1fr;
+  }
+}

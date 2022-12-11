@@ -1,0 +1,57 @@
+/* ảnh background */
+.bg-img {
+  display: block;
+  background-image: linear-gradient(
+      rgba(36, 36, 36, 0.3),
+      rgba(36, 36, 36, 0.3)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+* {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+/* ảnh đại diện  */
+.avt {
+  width: 40px;
+  height: 45px;
+  border-radius: 50%;
+  scale: 4;
+  border: 2px solid #fff;
+}
+
+#target {
+  background-color: #f1f1f1;
+}
+#personal-info {
+  background-color: #f7f7f7;
+}
+
+/* GẠCH CHÂN */
+.ngonngu-kynang {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.gach-chan {
+  margin-bottom: 8px;
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.gc-2 {
+  background-color: #dee2e6;
+}
+
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
